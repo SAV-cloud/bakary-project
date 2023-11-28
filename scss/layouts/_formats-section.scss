@@ -1,0 +1,29 @@
+.contact-container {
+    display: flex;
+    gap: 32px;
+}
+
+.contact-map {
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 16px;
+}
+
+.formats-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.formats-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.formats-item {
+    flex-basis: calc((100% - 40px) / 3);
+}
+
+.formats-title {
+    margin-bottom: 80px;
+}

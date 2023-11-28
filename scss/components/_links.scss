@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    line-height: 1.5;
+    color: var(--color-primary-light);
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: var(--color-brand-normal);
+}
