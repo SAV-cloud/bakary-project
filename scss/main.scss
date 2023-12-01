@@ -31,7 +31,11 @@
 /* Modal */
 @import './layouts/modal';
 /* form */
-@import './layouts/forms';
+@import './layouts/form-terms';
+@import './components/input';
+@import './utils/texts';
+@import './layouts/mobile-menu';
+@import './components/pagination';
 /* .checkbox {
     position: relative;
 }

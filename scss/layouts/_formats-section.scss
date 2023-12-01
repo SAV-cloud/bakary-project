@@ -1,29 +1,28 @@
-.contact-container {
-    display: flex;
-    gap: 32px;
-}
+.formats-section {
 
-.contact-map {
-    flex-shrink: 0;
-    border: 0;
-    border-radius: 16px;
-}
+    &__slider {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
 
-.formats-container {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-}
-.formats-list {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
+    &__title {
+        margin-bottom: 80px;
+    }
 
-.formats-item {
-    flex-basis: calc((100% - 40px) / 3);
-}
+    &__container {
+        overflow: hidden;
+    }
 
-.formats-title {
-    margin-bottom: 80px;
+    &__list {
+        margin-bottom: 32px;
+    }
+
+    &__button {
+        display: none;
+
+        @media screen and (min-width: $bp-tablete) {
+            display: flex;
+        }
+    }
 }
